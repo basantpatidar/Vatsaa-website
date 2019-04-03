@@ -1,0 +1,118 @@
+/*------------------------*/
+/*----- BASIC SETUP -----*/
+/*------------------------*/
+
+/* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+html,
+body {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+/*
+.clearfix{zoom: 1}
+.clearfix:after{
+    cont66ent: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+*/
+
+/*------------------------*/
+/*-- RESUABLE COMPONETS --*/
+/*------------------------*/
+
+/*--- HEADLINES ---*/
+
+/*--- PARAGRAPH ---*/
+
+/*----- ICONS -----*/
+
+/*----- LINKS -----*/
+
+/*---- BUTTONS ----*/
+
+/*------------------------*/
+/*------- HEADERS --------*/
+/*------------------------*/
+/* header{
+    
+} */
+.logo {
+    height: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50px;
+    margin: 5px;
+}
+
+.sticky {
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgb(29, 18, 145);
+    box-shadow: rgba(0, 0, 144, 0.83);
+}
+
+.sticky .logo {
+    display: block;
+}
+
+.main-nav {
+    margin-top: 18px;
+}
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+    padding: 20px 0px;
+    color: #555;
+}
+
+/*--- Main Navi ---*/
+.main-nav {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+
+.main-nav li {
+
+    margin-left: 40px;
+    color: #fff
+}
+
+li a {
+    display: block;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding: 8px 0px;
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 1px;
+    word-spacing: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #CBF3D2;
+}
