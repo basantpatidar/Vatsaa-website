@@ -3,36 +3,163 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,500" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <title>Vetsaa.org</title>
     
   <title>webpack starterkit</title>
 </head>
-<body>
-  <header>
-    <nav class="sticky">
-        <div class="row">
-            <img src="images/logo.jpg" alt="vetsaa logo" class="logo">
-            <ul class="main-nav">
-                <li><a href="#"></a>Home</li>
-                <li><a href="#"></a>About Vatss</li>
-                <div class="dropdown-about">
-                 <a href="#"></a>           
-                </div>
-                <li><a href="#"></a>Membership</li>
-                <div class="dropdown-membership">
-                 <a href="#"></a>           
-                </div>
-                <li><a href="#"></a>Employment</li>
-                <div class="dropdown-employment">
-                 <a href="#"></a>           
-                </div>
-                <li><a href="#"></a>Donations</li>
-                <li><a href="#"></a>Calendar of Events</li>
+<body >
+    <div class="row">
+      <div class="container-fluid">
+    <div id="header">
+        <script type="text/javascript">var p="http",d="static";if(document.location.protocol=="https:"){p+="s";d="engine";}var z=document.createElement("script");z.type="text/javascript";z.async=true;z.src=p+"://"+d+".multiview.com/ados.js";var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(z,s);</script> <script type="text/javascript">
+        var ados = ados || {};
+        ados.run = ados.run || [];
+        ados.run.push(function() {
+        /* load placement for account: Multiview, site: VAAweb - Veterans Association of America - MultiWeb, size: 468x60 - Full Banner, zone: VAA - Small Banner*/
+        ados_add_placement(4466, 53827, "mv468x60banner", 3).setZone(54671);
+        /* load placement for account: Multiview, site: VAAweb - Veterans Association of America - MultiWeb, size: 160x300 - 160 x 300, zone: VAAweb - Half Skyscraper*/
+        ados_add_placement(4466, 53827, "mvSky", 832).setZone(54672);
+        /* load placement for account: Multiview, site: VAAweb - Veterans Association of America - MultiWeb, size: 728x90 - Leaderboard, zone: VAAweb - Leaderboard*/
+        ados_add_placement(4466, 53827, "mvBottomLeader", 4).setZone(54673);
+        /* load placement for account: Multiview, site: VAAweb - Veterans Association of America - MultiWeb, size: 728x90 - Leaderboard, zone: VAAweb - Leaderboard*/
+        ados_add_placement(4466, 53827, "mvTopLeader", 4).setZone(54673);
+        ados_setDomain('engine.multiview.com');
+        ados_load();
+        });</script>
+        <div><style type="text/css">
+        #center-column, #columns{position:relative;}
+        </style></div>
+        <div id="mvTopLeader" style="margin: 7px auto; height: 90px; width: 728px; border: 0px;">
+          <a href="http://engine.multiview.com/r?e=eyJ2IjoiMS4xIiwiYXYiOjE3MDEzNiwiYXQiOjQsImJ0IjowLCJjbSI6NTEwNTIyLCJjaCI6MTQ1NjMsImNrIjp7fSwiY3IiOjYzNjI2NDksImRpIjoiZDhhN2Q1MGVmODM5NDBkMzg3ODE3NGQ2OWJiZWZlMmUiLCJkaiI6MCwiaWkiOiIxZjdhMmQ5OWM5Zjc0MjkzYjViOGMyNWZlMzdmZjgyZCIsImRtIjoxLCJmYyI6OTI5NjYxNCwiZmwiOjcyOTEwMTIsImlwIjoiMTc0LjU3LjI1MC4yNDkiLCJudyI6NDQ2NiwicGMiOjAsImVjIjowLCJwciI6NDc2NjYsInJ0IjoxLCJyZiI6Imh0dHA6Ly93d3cudmV0c2FhLm9yZy9Wb2x1bnRlZXJHb3Zlcm5tZW50YWxBZmZhaXJzQ29tbWl0dGVlR0FDIiwicnMiOjUwMCwic2EiOiI5Iiwic2IiOiJpLTBmNTY1YzVkYThkOTU4ZDc4Iiwic3AiOjkxMzIsInN0Ijo1MzgyNywidWsiOiJ1ZTEtNTI3MjBhZDA5MjQ2NGUyZmI5ZjYzMmJlNzcxNTRiZGUiLCJ6biI6NTQ2NzMsInRzIjoxNTU0MzI1NzMwNzk5LCJiZiI6dHJ1ZSwicG4iOiJtdlRvcExlYWRlciIsImdjIjp0cnVlLCJncyI6Im5vbmUiLCJ1ciI6Imh0dHBzOi8vcHVibGljYWZmYWlycy1zbWUuY29tL0NvbW11bml0eS92ZXRlcmFucy8_Q0lEPW12d2ViX3ZhYSJ9&amp;s=ebxosC3gLGhpYu979J3fsTSjBYM" rel="nofollow" target="_blank" title=""><img src="http://static.multiview.com/Advertisers/2035ce21d4b243c5a4c636462ddd6f66.jpg" title="" alt="" border="0" width="728" height="90"></a><img height="0px" width="0px" border="0" style="position:absolute;" src="http://engine.multiview.com/i.gif?e=eyJ2IjoiMS4xIiwiYXYiOjE3MDEzNiwiYXQiOjQsImJ0IjowLCJjbSI6NTEwNTIyLCJjaCI6MTQ1NjMsImNrIjp7fSwiY3IiOjYzNjI2NDksImRpIjoiZDhhN2Q1MGVmODM5NDBkMzg3ODE3NGQ2OWJiZWZlMmUiLCJkaiI6MCwiaWkiOiIxZjdhMmQ5OWM5Zjc0MjkzYjViOGMyNWZlMzdmZjgyZCIsImRtIjoxLCJmYyI6OTI5NjYxNCwiZmwiOjcyOTEwMTIsImlwIjoiMTc0LjU3LjI1MC4yNDkiLCJudyI6NDQ2NiwicGMiOjAsImVjIjowLCJwciI6NDc2NjYsInJ0IjoxLCJyZiI6Imh0dHA6Ly93d3cudmV0c2FhLm9yZy9Wb2x1bnRlZXJHb3Zlcm5tZW50YWxBZmZhaXJzQ29tbWl0dGVlR0FDIiwicnMiOjUwMCwic2EiOiI5Iiwic2IiOiJpLTBmNTY1YzVkYThkOTU4ZDc4Iiwic3AiOjkxMzIsInN0Ijo1MzgyNywidWsiOiJ1ZTEtNTI3MjBhZDA5MjQ2NGUyZmI5ZjYzMmJlNzcxNTRiZGUiLCJ6biI6NTQ2NzMsInRzIjoxNTU0MzI1NzMwODAwLCJiZiI6dHJ1ZSwicG4iOiJtdlRvcExlYWRlciIsImdjIjp0cnVlLCJncyI6Im5vbmUiLCJiYSI6MSwiZnEiOjB9&amp;s=488_UhDzSB7p5i8p2QxtTOcsNE8"></div>
+        
+        
+        <script>
+        window.onload = function () {
+        
+        var mvLeaderMid = document.getElementById('mv468x60banner');
+        var mvBottomLeader = document.getElementById('mvBottomLeader');
+        var footer = document.getElementById('footer');
+        footer .insertBefore(mvBottomLeader , footer .firstChild); 
+        mvBottomLeader .style.display = 'block';
+        
+        
+        if(window.location.href=='http://www.vetsaa.org/' || window.location.href=='http://www.vetsaa.org' || window.location.href=='http://vetsaa.org' || window.location.href=='http://vetsaa.org/'){
+        
+        var centerCol = document.getElementById('center-column');
+        var centerContent = document.getElementById('center-column-content');
+        var rightContent = document.getElementById('right-column-content');
+        
+        centerCol.style.width = '357px';
+        centerCol.style.position = 'relative';
+        centerContent.style.marginTop = '80px';
+        rightContent.style.marginTop = '80px';
+        mvLeaderMid.style.position = 'absolute';
+        
+        centerCol.insertBefore(mvLeaderMid, centerCol.firstChild);
+        mvLeaderMid.style.marginLeft = '57px';
+        mvLeaderMid.style.display = 'block';
+        
+        }else{
+             var page = document.getElementById('center-column');
+             page.insertBefore(mvLeaderMid, page.firstChild); 
+             mvLeaderMid.style.display = 'block';
+        }
+        
+        }
+        </script>
+        
+        </div>
+
+
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="d-flex flex-grow-1">
+            <span class="w-100 d-lg-none d-block"><!-- hidden spacer to center brand on mobile --></span>
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.jpg" alt="vetsaa logo" class="logo">
+            </a>
+            <div class="w-100 text-right">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar7">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </div>
+        <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar7">
+            <ul class="navbar-nav ml-auto flex-nowrap">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">About Vatss<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#" class="nav-link">Board of Directors</a></li>
+                      <li><a href="#" class="nav-link">Advisory Council</a></li>
+                      <li><a href="#" class="nav-link">Corporate Advisory Board</a></li>
+                      <li><a href="#" class="nav-link">Governmental Affairs Committee</a></li>
+                      <li><a href="#" class="nav-link">Awards & Honors</a></li>
+                    </ul>
+                  </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">MemberShip<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#" class="nav-link">Sponsors & Contributors</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">Employment<b class="caret"></b></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#" class="nav-link">Resources</a></li>
+                      </ul>
+                    </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Donations</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Calendar of Events</a>
+                </li>
             </ul>
         </div>
     </nav>
-</header>
+    <div id="carouselExampleControls" class="carousel slide carousel-fade" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="images/p001.jpg" alt="First slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="images/p002.jpg" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="images/p003.jpg" alt="Third slide">
+        </div>
+      </div>
+      </div>
+      <div class="section-welcome">
+        <div class="welcome-heading">Welcome to our web site</div>
+        <div class="welcome-para">
+          Veterans Association of America Inc., will be to serve, assist and revitalize the preferential rights of veterans that have been routinely compromised. The organization will service those by providing legal assistance, housing, employment opportunities, business ownership, discharge upgrades, medical assistance, family outreach, and other pressing issues that stand as debilitating factors preventing veterans and their families from receiving the “quality care” deserved throughout mainstream society.
+
+VAA is a 501(c)3 nonprofit organization which focuses on veteran and family concerns effecting their daily conditions. The displacement of current and former veterans of all branches seeking the rights and opportunities to dispel the social, economic, educational and employment stigmas that continue to befall upon them.
+
+Veterans Association of America, Inc., was founded in 2001, during many requests from veterans to have an organization that would focus on issues that effected their military and civilian careers.
+        </div>
+      </div>
+      <div id="mvBottomLeader" style="margin: 7px auto; height: 90px; width: 728px; border: 0px; display: block;"><a href="http://engine.multiview.com/r?e=eyJ2IjoiMS4xIiwiYXYiOjQzNTU0MiwiYXQiOjQsImJ0IjowLCJjbSI6ODM2NjY4LCJjaCI6MTQ1NjMsImNrIjp7fSwiY3IiOjcxMDczNDUsImRpIjoiNDc5NDQxZGQxNDU0NGExOTk4OGVkOTE4MTZkNjM1YWIiLCJkaiI6MCwiaWkiOiJlNGJhOGMyMTJlZmE0YTFmOTYxYTg5YzE0NjlhZTIyOSIsImRtIjoxLCJmYyI6MTAwNTY1NTIsImZsIjo4MTIzMDkyLCJpcCI6IjE3NC41Ny4yNTAuMjQ5IiwibnciOjQ0NjYsInBjIjowLCJlYyI6MCwicHIiOjQ3NjY2LCJydCI6MSwicmYiOiJodHRwOi8vd3d3LnZldHNhYS5vcmcvVm9sdW50ZWVyR292ZXJubWVudGFsQWZmYWlyc0NvbW1pdHRlZUdBQyIsInJzIjo1MDAsInNhIjoiOSIsInNiIjoiaS0wZjU2NWM1ZGE4ZDk1OGQ3OCIsInNwIjo5MTMyLCJzdCI6NTM4MjcsInVrIjoidWUxLTUyNzIwYWQwOTI0NjRlMmZiOWY2MzJiZTc3MTU0YmRlIiwiem4iOjU0NjczLCJ0cyI6MTU1NDMyNTczMDc5NywiYmYiOnRydWUsInBuIjoibXZCb3R0b21MZWFkZXIiLCJnYyI6dHJ1ZSwiZ3MiOiJub25lIiwidXIiOiJodHRwczovL2ZlZHMuZGVsdGFkZW50YWxpbnMuY29tL3ZhZGlwL3BsYW5zLyJ9&amp;s=G0IejOMjzq2AlReOvlVISOoo5qo" rel="nofollow" target="_blank" title=""><img src="http://static.multiview.com/Advertisers/971ef65168dd465a804f79426bcae53f.jpg" title="" alt="" border="0" width="728" height="90"></a>
+        <img height="0px" width="0px" border="0" style="position:absolute;" src="http://engine.multiview.com/i.gif?e=eyJ2IjoiMS4xIiwiYXYiOjQzNTU0MiwiYXQiOjQsImJ0IjowLCJjbSI6ODM2NjY4LCJjaCI6MTQ1NjMsImNrIjp7fSwiY3IiOjcxMDczNDUsImRpIjoiNDc5NDQxZGQxNDU0NGExOTk4OGVkOTE4MTZkNjM1YWIiLCJkaiI6MCwiaWkiOiJlNGJhOGMyMTJlZmE0YTFmOTYxYTg5YzE0NjlhZTIyOSIsImRtIjoxLCJmYyI6MTAwNTY1NTIsImZsIjo4MTIzMDkyLCJpcCI6IjE3NC41Ny4yNTAuMjQ5IiwibnciOjQ0NjYsInBjIjowLCJlYyI6MCwicHIiOjQ3NjY2LCJydCI6MSwicmYiOiJodHRwOi8vd3d3LnZldHNhYS5vcmcvVm9sdW50ZWVyR292ZXJubWVudGFsQWZmYWlyc0NvbW1pdHRlZUdBQyIsInJzIjo1MDAsInNhIjoiOSIsInNiIjoiaS0wZjU2NWM1ZGE4ZDk1OGQ3OCIsInNwIjo5MTMyLCJzdCI6NTM4MjcsInVrIjoidWUxLTUyNzIwYWQwOTI0NjRlMmZiOWY2MzJiZTc3MTU0YmRlIiwiem4iOjU0NjczLCJ0cyI6MTU1NDMyNTczMDc5OCwiYmYiOnRydWUsInBuIjoibXZCb3R0b21MZWFkZXIiLCJnYyI6dHJ1ZSwiZ3MiOiJub25lIiwiYmEiOjEsImZxIjowfQ&amp;s=gWV7lwsyiIg4I3iwMebdH3KlB0I"></div>
+     
+
+
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </div>
+    </div>
 </body>
 </html>
