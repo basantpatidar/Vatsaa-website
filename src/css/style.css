@@ -18,71 +18,72 @@
 /*------------------------*/
 /*------- HEADERS --------*/
 /*------------------------*/
-/* header{
-    
-} */
-.logo {
-    height: 50px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    border-radius: 50px;
-    margin: 5px;
-}
 
-.sticky {
-    position: relative;
-    width: 100%;
-    top: 0;
-    left: 0;
-    background-color: rgb(29, 18, 145);
-    box-shadow: rgba(0, 0, 144, 0.83);
-}
+/*------------------------*/
+/*------ NAVIGATION ------*/
+/*------------------------*/
 
-.sticky .logo {
+.logo{
+    width: 60px;
+    border-radius: 45px;
+    margin: -10px;
+}
+.nav-headline{
+    width: 750px;
+    color: white;
+    font-size: 150%;
+    font-family: 'lato';
+    font-weight: 500;
+    padding-top: 15px;
+}
+.bg-dark{
+background-color: #083460;
+}
+.nav-item{
+    font-family: 'lato';
+}
+.dropdown:hover>.dropdown-menu {
     display: block;
-}
-
-.main-nav {
-    margin-top: 18px;
-}
-
-.sticky .main-nav li a:link,
-.sticky .main-nav li a:visited {
-    padding: 20px 0px;
-    color: #555;
-}
-
-/*--- Main Navi ---*/
-.main-nav {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    text-align: right;
-}
-
-.main-nav li {
-
-    margin-left: 40px;
-    color: #fff
-}
-
-li a {
-    display: block;
-}
-
-.main-nav li a:link,
-.main-nav li a:visited {
-    padding: 8px 0px;
-    color: #fff;
+  }
+.dropdown-menu{
+    background-color: #343a40;
     text-decoration: none;
-    letter-spacing: 1px;
-    word-spacing: 90%;
-    border-bottom: 2px solid transparent;
-    transition: border-bottom 0.2s;
+    color: #000;
+    box-shadow: #343a40;
+}
+.carousel-inner{
+width: 100%;
+height: 600px;
+}
+.gofund{
+    transform:translate(20px,-200px);
+    font-size: 400%;
+    font-family: 'lato';
+    font-weight: 500;
+    text-align: center;
 }
 
-.main-nav li a:hover,
-.main-nav li a:active {
-    border-bottom: 2px solid #CBF3D2;
+.gofund a{
+    color: azure;
+    text-decoration: none;
+    text-shadow: 2px 2px black;
+}
+.fa-donate:hover{
+    color: green;
+}
+
+.section-welcome{
+    font-family: 'lato';
+    background-color: #f4f4f4;
+    margin-top: -100px;
+}
+.welcome-heading{
+    text-align: center;
+    font-size: 150%;
+    font-weight: 500;
+}
+.welcome-para{
+    width: 70%;
+    margin: 0 auto;
+    font-weight: 300;
 }
