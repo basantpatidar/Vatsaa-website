@@ -5,3 +5,8 @@ require('../css/app.css');
 
 console.log('Paste your code here!');
 console.log(testModules.hello);
+
+$('.carousel').carousel({
+    interval: 2000,
+    pause:false
+  })
